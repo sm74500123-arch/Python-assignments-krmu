@@ -1,0 +1,43 @@
+==========================================
+         GradeBook Analyzer CLI
+==========================================
+Choose input method: manual entry or CSV import.
+
+Choose (1) Manual entry  (2) Load CSV  (q) Quit : 1
+Manual entry mode. Enter students (blank name to stop).
+Student name: Sameer malik
+Marks for Sameer malik: 500
+Student name: yash suhag
+Marks for yash suhag: 250
+Student name: ram
+Marks for ram: 380
+Student name: nakul
+Marks for nakul: 350
+Student name: 
+
+------ Analysis Summary ------
+Students: 4
+Average: 370.00
+Median: 365.00
+Max: 500.00 ( Sameer malik )
+Min: 250.00 ( yash suhag )
+Grade distribution: {'A': 4, 'B': 0, 'C': 0, 'D': 0, 'F': 0}
+-------------------------------
+
+Name                   Marks   Grade
+----------------------------------------
+Sameer malik          500.00        A
+yash suhag            250.00        A
+ram                   380.00        A
+nakul                 350.00        A
+----------------------------------------
+
+Passed (4): Sameer malik, yash suhag, ram, nakul
+Failed (0): None
+
+Export final grade table to CSV? (yes/no): yes
+Enter output filename (e.g., result.csv): result.csb
+Saved final table to result.csb
+
+Do you want to run another analysis? (y/n): n
+Exiting GradeBook Analyzer. Goodbye.
